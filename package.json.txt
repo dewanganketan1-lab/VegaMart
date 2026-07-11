@@ -1,0 +1,63 @@
+{
+  "name": "vegamart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "India's First Live Local Vendor Network",
+  "author": "VegaMart Team",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "export": "next build && next export",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "firebase": "^10.12.2",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^5.2.1",
+    "react-hot-toast": "^2.4.1",
+    "framer-motion": "^11.2.10",
+    "react-map-gl": "^7.1.7",
+    "mapbox-gl": "^3.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "chart.js": "^4.4.3",
+    "date-fns": "^3.6.0",
+    "zustand": "^4.5.2",
+    "lucide-react": "^0.394.0",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@react-google-maps/api": "^2.19.3",
+    "react-mapbox-gl": "^5.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/google.maps": "^3.55.9",
+    "@types/mapbox-gl": "^3.1.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "hyperlocal",
+    "marketplace",
+    "vendors",
+    "india",
+    "commerce"
+  ],
+  "license": "MIT"
+}
